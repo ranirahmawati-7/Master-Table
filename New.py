@@ -19,7 +19,7 @@ def bagian_1_proyeksi():
     with col_logo:
         st.image("gambar/OIP.jpg", width=90)
 
- with col_title:
+     with col_title:
         st.markdown(
             """
             <h1 style="margin-bottom:0; color:#1f4e79;">
@@ -32,14 +32,14 @@ def bagian_1_proyeksi():
             unsafe_allow_html=True
         )
 
- st.info("Website ini akan otomatis menampilkan dashboard untuk perhitungan nilai dan Summary Data setelah anda mengupload file dengan format xlxs atau csv, dan pastikan format tabel yang akan diinput sesuai dengan contoh")
-    st.image(
+        st.info("Website ini akan otomatis menampilkan dashboard untuk perhitungan nilai dan Summary Data setelah anda mengupload file dengan format xlxs atau csv, dan pastikan format tabel yang akan diinput sesuai dengan contoh")
+        st.image(
         "gambar/xlsxPic2.png",
         caption="Contoh format file Excel (.xlsx) yang didukung",
         use_container_width=True
     )
 
- st.title("📊 Dashboard Master Table")
+        st.title("📊 Dashboard Master Table")
     
     # ===============================
     # UPLOAD FILE
