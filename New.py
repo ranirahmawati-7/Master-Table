@@ -14,7 +14,7 @@ def bagian_1_proyeksi():
     # ===============================
     # HEADER DENGAN LOGO
     # ===============================
-  col_logo, col_title = st.columns([1, 8])
+    col_logo, col_title = st.columns([1, 8])
     
     with col_logo:
         st.image("gambar/OIP.jpg", width=90)
