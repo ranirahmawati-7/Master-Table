@@ -11,7 +11,7 @@ def bagian_1_proyeksi():
     import plotly.graph_objects as go
     import re
 
- # ===============================
+    # ===============================
     # HEADER DENGAN LOGO
     # ===============================
   col_logo, col_title = st.columns([1, 8])
@@ -62,7 +62,7 @@ def bagian_1_proyeksi():
     else:
         sheet_names = ["CSV"]
 
- # Skip sheet Proyeksi
+    # Skip sheet Proyeksi
     #sheet_names = [s for s in sheet_names if s.lower() != "proyeksi"]
     
     # ===============================
@@ -198,7 +198,7 @@ df_f = df[
         if df_f.empty:
             st.warning("Data kosong setelah filter")
             continue
-          #=============================================================================
+        #=============================================================================
         # ===============================
 # ==============================
 # DATA PREPARATION
