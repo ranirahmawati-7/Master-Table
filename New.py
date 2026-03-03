@@ -195,7 +195,7 @@ df_f = df[
             df["Dimensi"].isin(dim)
         ]
     
-        if df_f.empty:
+            if df_f.empty:
             st.warning("Data kosong setelah filter")
             continue
         #=============================================================================
