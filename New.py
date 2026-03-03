@@ -203,7 +203,7 @@ def bagian_1_proyeksi():
 # ==============================
 # DATA PREPARATION
 # ==============================
-df["Tahun"] = df["Tahun"].astype(str)
+        df["Tahun"] = df["Tahun"].astype(str)
 
 # ==============================
 # SIDEBAR FILTER
