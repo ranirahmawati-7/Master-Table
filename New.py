@@ -181,7 +181,7 @@ with c2:
                 key=f"kp_{sheet}"
             )
 
- with c3:
+with c3:
             dim = st.multiselect(
                 f"🏷️ {dimensi_label}",
                 sorted(df["Dimensi"].dropna().unique()),
