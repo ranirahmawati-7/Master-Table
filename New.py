@@ -173,7 +173,7 @@ def bagian_1_proyeksi():
                 key=f"per_{sheet}"
             )
 
-with c2:
+        with c2:
             kp = st.multiselect(
                 "🏦 Institusi",
                 sorted(df["Institusi"].dropna().unique()),
@@ -181,7 +181,7 @@ with c2:
                 key=f"kp_{sheet}"
             )
 
-with c3:
+        with c3:
             dim = st.multiselect(
                 f"🏷️ {dimensi_label}",
                 sorted(df["Dimensi"].dropna().unique()),
