@@ -189,13 +189,13 @@ def bagian_1_proyeksi():
                 key=f"dim_{sheet}"
             )
 
-df_f = df[
+        df_f = df[
             df["Periode"].isin(per) &
             df["Institusi"].isin(kp) &
             df["Dimensi"].isin(dim)
         ]
     
-            if df_f.empty:
+        if df_f.empty:
             st.warning("Data kosong setelah filter")
             continue
         #=============================================================================
