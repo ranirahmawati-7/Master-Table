@@ -131,7 +131,7 @@ def bagian_1_proyeksi():
     
         df = df_raw.rename(columns={
             COL_PERIODE: "Periode",
-            COL_Institusi: Institusi,
+            COL_Institusi: "Institusi",
             COL_DIMENSI: "Dimensi"
         })
 
