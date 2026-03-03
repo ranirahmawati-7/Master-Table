@@ -19,7 +19,7 @@ def bagian_1_proyeksi():
     with col_logo:
         st.image("gambar/OIP.jpg", width=90)
 
-     with col_title:
+    with col_title:
         st.markdown(
             """
             <h1 style="margin-bottom:0; color:#1f4e79;">
